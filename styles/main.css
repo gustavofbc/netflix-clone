@@ -12,7 +12,7 @@
 /* Elementos base */
 body {
     background: var(--preta);
-    font-family: 'Arial', Times, serif;
+    font-family: Helvetica, Times, serif;
     color: #FFF;
 }
 
@@ -23,10 +23,7 @@ header .container {
 }
 
 header .logo {
-    color: var(--vermelho);
-    font-family: 'Arial Black', Times;
-    font-size: 40px;
-    margin-left: 5px;
+    margin: 10px;
 }
 
 header nav a {
@@ -42,7 +39,7 @@ header nav a:hover {
 /* Filme principal */
 .filme-principal {
     font-size: 16px;
-    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50) 100%), url('/img/capa.jpg');
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50) 100%), url('/img/nlw.jpg');
 
     height: 400px;
     background-size: cover;
